@@ -32,6 +32,11 @@ header {
     margin-top: 10px;
 }
 
+.btn-preto {
+    background-color: black; /* Botão de compra agora é preto */
+    color: white;
+}
+
 .features {
     margin: 20px;
     padding: 20px;
@@ -61,4 +66,3 @@ footer {
     color: white;
     padding: 10px;
 }
-
