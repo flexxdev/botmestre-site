@@ -2,20 +2,28 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f8f8f8;
+    background-color: #f0f0f0; /* Cinza claro */
+    color: black;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #ff4500;
+    background-color: #333; /* Preto */
     color: white;
     padding: 20px;
 }
 
+.banner {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-bottom: 5px solid #32CD32; /* Verde claro */
+}
+
 .btn {
-    background-color: #ffd700;
-    color: black;
+    background-color: #32CD32; /* Verde claro */
+    color: white;
     padding: 10px 20px;
     text-decoration: none;
     font-size: 18px;
@@ -43,12 +51,14 @@ header {
 
 #comprar {
     padding: 30px;
-    background-color: #ffcc00;
+    background-color: #32CD32; /* Verde claro */
+    color: white;
     border-radius: 10px;
 }
 
 footer {
-    background-color: #222;
+    background-color: black;
     color: white;
     padding: 10px;
 }
+
